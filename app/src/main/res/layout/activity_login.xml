@@ -45,7 +45,7 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/ETusername"
+            android:id="@+id/etUName"
             android:hint="Username"
             android:transitionName="username_tran"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -62,7 +62,7 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/ETpassword"
+            android:id="@+id/etPassw"
             android:hint="Password"
             app:passwordToggleEnabled="true"
             android:transitionName="password_tran"
