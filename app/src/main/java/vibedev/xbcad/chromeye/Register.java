@@ -31,6 +31,7 @@ public class Register extends AppCompatActivity {
         CheckUserLoggedIn();
         Registration();
         RedirectOnclick();
+
     }
 
     private void fAuth() {
