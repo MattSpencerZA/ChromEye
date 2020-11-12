@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        viewPager=findViewById(R.id.viewpager);
-        adapter=new SlideViewPagerAdapter(this);
+        viewPager = findViewById(R.id.viewpager);
+        adapter = new SlideViewPagerAdapter(this);
         viewPager.setAdapter(adapter);
         if (isOpenAlready())
         {
@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
             editor.putBoolean("slide",true);
             editor.commit();
         }
-
     }
 
     private boolean isOpenAlready() {

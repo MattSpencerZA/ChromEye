@@ -54,7 +54,6 @@ public class Register extends AppCompatActivity {
                 if(TextUtils.isEmpty(email)) { mEmail.setError("Email is Required!"); return; }
                 if(TextUtils.isEmpty(password)) { mPassword.setError("Password is Required!"); return; }
                 if(password.length() < 6) { mPassword.setError("Password Must Be >= 6 Characters!"); }
-
                 //register users with Firebase
                 fAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override

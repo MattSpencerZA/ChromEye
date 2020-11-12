@@ -107,16 +107,14 @@
             android:layout_gravity="right"
             android:layout_margin="5dp"
             android:background="#0000ffff"
+            android:backgroundTint="@color/olive"
             android:elevation="0dp"
             android:text="New User? Sign Up"
-            android:backgroundTint="@color/olive"
             android:textColor="@color/colorBackground"
             android:transitionName="login_signup_tran" />
 
 
     </LinearLayout>
-
-
 
 
 </LinearLayout>
