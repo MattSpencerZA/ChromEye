@@ -27,10 +27,15 @@ public class Register extends AppCompatActivity {
         setContentView(R.layout.activity_register);
 
         VariableInit();
+
         fAuth();
+
         CheckUserLoggedIn();
+
         Registration();
+
         RedirectOnclick();
+        
     }
 
     private void fAuth() { fAuth = FirebaseAuth.getInstance(); }
