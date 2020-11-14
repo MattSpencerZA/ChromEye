@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "34408184753",
+    "firebase_url": "https://chromeye-d412f.firebaseio.com",
+    "project_id": "chromeye-d412f",
+    "storage_bucket": "chromeye-d412f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34408184753:android:8c5654c02c081f35a71b90",
+        "android_client_info": {
+          "package_name": "com.example.chromeeye1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34408184753-cno6gqlappubenvec39qedvmhi6qdk11.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chromeeye1",
+            "certificate_hash": "3da517d2deca1157e2631137e63c524d928c8a84"
+          }
+        },
+        {
+          "client_id": "34408184753-7u583v0r4ndd6s8d3jsoq2nvrtt6g6h4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH_sjsBqLoPQnnSafmjB9mtLamEdLv5AI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34408184753-7u583v0r4ndd6s8d3jsoq2nvrtt6g6h4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
