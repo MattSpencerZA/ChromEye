@@ -35,7 +35,6 @@ public class Register extends AppCompatActivity {
         Registration();
 
         RedirectOnclick();
-        
     }
 
     private void fAuth() { fAuth = FirebaseAuth.getInstance(); }
